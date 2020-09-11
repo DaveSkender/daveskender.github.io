@@ -1,1 +1,6 @@
+# Ref: https://jekyllrb.com/docs/usage/
+# Local dev: bundle exec jekyll serve
+
 theme: jekyll-theme-cayman
+include: []
+exclude: ["*.yml"]
