@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+# projects
 
-You can use the [editor on GitHub](https://github.com/DaveSkender/daveskender.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## [stock.indicators](http://daveskender.github.io/Stock.Indicators)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[![NuGet package](https://img.shields.io/nuget/v/skender.stock.indicators?color=blue&logo=NuGet&label=NuGet%20Package)](https://www.nuget.org/packages/Skender.Stock.Indicators)
+[![Nuget](https://img.shields.io/nuget/dt/skender.stock.indicators?logo=NuGet&label=Downloads)](https://www.nuget.org/packages/Skender.Stock.Indicators)
+[![build status](https://img.shields.io/azure-devops/build/skender/5123ca47-74f2-4d67-a5d4-c4d90b8d670a/21/master?logo=AzureDevops&label=Build%20Status)](https://dev.azure.com/skender/Stock.Indicators/_build/latest?definitionId=21&branchName=master)
+[![code coverage](https://img.shields.io/azure-devops/coverage/skender/stock.indicators/21?logo=AzureDevops&label=Code%20Coverage)](https://dev.azure.com/skender/Stock.Indicators/_build/latest?definitionId=21&branchName=master&view=codecoverage-tab)
+[![CodeQL](https://github.com/DaveSkender/Stock.Indicators/workflows/CodeQL/badge.svg)](https://github.com/DaveSkender/Stock.Indicators/security/code-scanning)
 
-### Markdown
+A .NET library that produces [stock indicators](http://daveskender.github.io/Stock.Indicators/docs/INDICATORS.html).  Send in historical stock price quotes and get back desired technical indicators (such as moving average, relative strength, stochastic oscillator, parabolic SAR, etc).  Nothing more.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+It can be used in any kind of stock analysis software.  We had private trading algorithms and charts in mind when originally creating this open library -- to support stock, cryptocurrency, forex, and machine learning systems.  [Skender.Stock.Indicators](https://www.nuget.org/packages/Skender.Stock.Indicators) is the public NuGet package for this library.
 
-```markdown
-Syntax highlighted code block
+## [stock.charts](https://github.com/DaveSkender/Stock.Charts)
 
-# Header 1
-## Header 2
-### Header 3
+A site to demonstrate usage of the [Skender.Stock.Indicators](https://www.nuget.org/packages/Skender.Stock.Indicators) Nuget package.  It is an Angular 10 website with a .NET Core 3.1 Web Api that auto generates a stock chart.  You can add and remove indicators on the fly on the chart.  Only a few sample [indicators](http://daveskender.github.io/Stock.Indicators/docs/INDICATORS.html) are shown in this demo.
 
-- Bulleted
-- List
+The site is hosted on a free-tier Azure Web Service, so be patient while it initially wakes up from hibernation.  The package itself is [quite fast](http://daveskender.github.io/Stock.Indicators/tests/performance).
 
-1. Numbered
-2. List
+## contact info
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DaveSkender/daveskender.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+You can contact me through the NuGet [Contact Owners](https://www.nuget.org/packages/Skender.Stock.Indicators) method.
