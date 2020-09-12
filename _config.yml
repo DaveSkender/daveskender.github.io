@@ -4,3 +4,4 @@
 theme: jekyll-theme-cayman
 include: []
 exclude: ["*.yml"]
+google_analytics: UA-100790637-3
