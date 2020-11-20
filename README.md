@@ -13,10 +13,10 @@ It can be used in any kind of stock analysis software.  We had private trading a
 
 ## [stock.charts](https://github.com/DaveSkender/Stock.Charts)
 
-A site to demonstrate usage of the [Skender.Stock.Indicators](https://www.nuget.org/packages/Skender.Stock.Indicators) Nuget package.  It is an Angular website with a .NET Web Api that auto generates a stock chart.  You can add and remove indicators on the fly on the chart.  Only a few sample [indicators](http://daveskender.github.io/Stock.Indicators/docs/INDICATORS.html) are shown in this demo.
+A site to demonstrate usage of the [Skender.Stock.Indicators](https://www.nuget.org/packages/Skender.Stock.Indicators) Nuget package.  It is an Angular website with a .NET Web Api that auto generates a stock chart.  You can dynamically add and remove indicators on the chart.  Only a few sample [indicators](http://daveskender.github.io/Stock.Indicators/docs/INDICATORS.html) are shown in this demo.
 
 The site is hosted on a free-tier cloud web service, so be patient while it initially wakes up from hibernation.  The package itself is [quite fast](http://daveskender.github.io/Stock.Indicators/tests/performance).
 
 ## contact info
 
-You can contact me through the NuGet [Contact Owners](https://www.nuget.org/packages/Skender.Stock.Indicators) method.
+You can also direct message [@daveskender](https://twitter.com/messages/compose?recipient_id=27475431) on Twitter.
