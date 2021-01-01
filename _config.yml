@@ -5,3 +5,5 @@ theme: jekyll-theme-cayman
 include: []
 exclude: ["*.yml"]
 google_analytics: G-01XHG4HV99
+plugins:
+  - jemoji
