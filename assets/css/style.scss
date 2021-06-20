@@ -19,6 +19,7 @@ $color-primary-hover: #bdbdbd;
 
 .project-name {
     color: $color-primary-light;
+    text-align: left;
     font-size: 2rem;
     margin: 0;
 
@@ -33,6 +34,7 @@ $color-primary-hover: #bdbdbd;
 }
 
 .project-tagline {
+    text-align: left;
     font-size: 1rem;
     margin-bottom: 12px;
     margin-top: 0;
